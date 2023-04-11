@@ -1,0 +1,173 @@
+body{
+  background-image: url(assets/background1-03.svg);
+  background-repeat: no-repeat;
+  background-size:cover;
+}
+.ghost-coffin{
+    scale:.12;
+    align-items: center;
+   position: absolute;
+    top:-500px;
+
+  }
+.coffin{
+  scale:.12;
+  align-items: center;
+  position:absolute;
+  top:-500px;
+
+ 
+  }
+
+.gravestone-text{
+  text-align: center;
+  scale:1.5;
+  position:absolute;
+  top:200px;
+  left:650px;
+}
+
+h1, h2, h3{
+font-family: "lores-12-bold-alt-oakland", sans-serif;
+font-weight: 400;
+font-style: normal;
+color:aliceblue;
+
+}
+
+
+
+/*ghostcoffinstyle*/
+.ghost-eyes {
+    fill: #262626;
+  }
+
+  .coffinsidein {
+    fill: #6c6c6c;
+  }
+
+  .ghost-body {
+    fill: #dbdbdb;
+  }
+
+  .coffinin {
+    fill: #8c8c8c;
+  }
+  
+
+  /*coffinstyle*/
+  .coffinside {
+    fill: #6c6c6c;
+  }
+
+  .coffin-front {
+    fill: #a0a0a0;
+  }
+  
+  
+
+  /* nav grid*/
+  nav{
+    padding-left:4em;
+    padding-right: 4em;
+    width: 100%;
+    top:0;
+    left:0;
+    z-index:10;
+  }
+
+  nav ul {
+    margin:0;
+    padding:0;
+    position:absolute;
+    top:700px; 
+    left:485px;
+    scale:1.2;
+    display:flex;
+  }
+  nav li{
+    padding: 1em 0;
+    list-style-type: none;
+    padding: 5px;
+    font-size: 1.7em;
+  }
+  
+  nav li a {
+    color:rgb(64, 64, 65);
+    font-weight: 600;
+    text-decoration: none;
+    font-family: "lores-12-bold-alt-oakland", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    transition: .3s;
+  }
+  
+  nav li a:hover {
+    color:rgb(35, 35, 35);
+    opacity: 1;
+    text-decoration: none;
+  }
+
+
+
+
+
+
+
+
+  /*grids*/
+
+  .image-gallery {
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr minmax(350px, 1fr)  minmax(350px, 1fr) minmax(350px, 1fr) 1fr;
+    grid-template-rows: auto;
+    grid-gap: 10px;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    grid-template-areas:
+    ". a b c ."
+    ". d e f ."
+    ;
+}
+
+.box-styling {
+    height: 350px;
+    background-color: rgb(110, 110, 110);
+    /* clip-path: polygon(5% 5%, 100% 0%, 100% 75%, 75% 75%, 75% 100%, 50% 75%, 0% 75%); */
+  }
+
+.box-wrapper{
+  height:350px;
+  border-radius: 1%;
+}
+.box1 {
+    grid-area: a;
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+
+}
+
+.box2 {
+    grid-area: b;
+}
+
+.box3 {
+    grid-area: c;
+}
+
+.box4 {
+    grid-area: d;
+}
+
+.box5 {
+    grid-area: e;
+}
+
+.box6 {
+    grid-area: f;
+}
+
+.bigText {
+    font-size: 2em;
+    padding-right: .5ch;
+}

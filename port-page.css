@@ -1,0 +1,102 @@
+body{
+    background-image: url(assets/webback-06.svg);
+    background-size: cover;
+    background-repeat:repeat-y;
+}
+
+.container{
+  align-items: center;
+  display:grid;
+  min-width: 100%;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto;
+  grid-template-areas: 
+  "icon"
+  "navbar"
+  "content"
+  "footer";
+}
+
+/*svgs*/
+.ghost-coffin{
+  scale:.05;
+ position: absolute;
+  top:-500px;
+
+}
+.coffin{
+scale:.05;
+position:absolute;
+top:-500px;
+}
+
+/*ghostcoffinstyle*/
+.ghost-eyes {
+  fill: #262626;
+}
+
+.coffinsidein {
+  fill: #6c6c6c;
+}
+
+.ghost-body {
+  fill: #dbdbdb;
+}
+
+.coffinin {
+  fill: #8c8c8c;
+}
+
+
+/*coffinstyle*/
+.coffinside {
+  fill: #6c6c6c;
+}
+
+.coffin-front {
+  fill: #a0a0a0;
+}
+/*navbar*/
+
+nav{
+    display: inline-block;
+    margin: auto;
+    width: 100%;
+    top:0;
+    z-index:10;
+  }
+
+  nav ul {
+    margin:0;
+    padding:0;
+    scale:1.2;
+    display:flex;
+  }
+  nav li{
+    align-items: center;
+    padding: 1em 0;
+    list-style-type: none;
+    padding: 5px;
+    font-size: 1.7em;
+  }
+  
+  nav li a {
+    color:rgb(64, 64, 65);
+    font-weight: 600;
+    text-decoration: none;
+    font-family: "lores-12-bold-alt-oakland", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    transition: .3s;
+  }
+  
+  nav li a:hover {
+    color:rgb(35, 35, 35);
+    opacity: 1;
+    text-decoration: none;
+  }
+
+  .content{
+    height:250px;
+    width:250px;
+  }
