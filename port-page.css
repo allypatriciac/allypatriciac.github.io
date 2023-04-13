@@ -6,11 +6,9 @@ body{
 }
 
 .container{
-  align-items: center;
   display:grid;
   min-width: 100%;
   grid-template-columns: 1fr;
-  grid-template-rows: auto;
   grid-template-areas: 
   "icon"
   "navbar"
@@ -57,13 +55,13 @@ top:-500px;
 .coffin-front {
   fill: #a0a0a0;
 }
-/*navbar*/
 
+/*navbar*/
 nav{
     display: inline-block;
     margin: auto;
     width: 100%;
-    top:0;
+    scale:75%;
     z-index:10;
   }
 
@@ -77,12 +75,12 @@ nav{
     align-items: center;
     padding: 1em 0;
     list-style-type: none;
-    padding: 5px;
+    padding: 2px;
     font-size: 1.7em;
   }
   
   nav li a {
-    color:rgb(64, 64, 65);
+    color:rgb(194, 194, 201);
     font-weight: 600;
     text-decoration: none;
     font-family: "lores-12-bold-alt-oakland", sans-serif;
@@ -91,14 +89,6 @@ nav{
     transition: .3s;
   }
   
-  nav li a:hover {
-    color:rgb(35, 35, 35);
-    opacity: 1;
-    text-decoration: none;
-  }
-
-
-   
   /*bizcard css*/
 
   .front-side,
@@ -113,9 +103,6 @@ nav{
   background-color:rgb(0, 0, 0);
 }
 
-/* .front-side{
-} */
-
 img[src='assets/lines.svg']{
   scale:.95;
 }
@@ -124,16 +111,13 @@ img[src='assets/lines.svg']{
   height: 5px;
 }
 
-
-
 .bizcard1{
   font-family: "lores-12", sans-serif;
   font-weight: 700;
   font-style: normal;
   text-align: center;
   scale: 1.2;
-  
-    }
+   }
 
 .bizcard3{
   font-family: "lores-12", sans-serif;
@@ -222,6 +206,48 @@ svg{
   margin-left:50%;
   margin-right:50%;
   padding-top:20px;
+}
+
+
+.box-styling {
+  height: 350px;
+  background-color: rgb(110, 110, 110);
+  /* clip-path: polygon(5% 5%, 100% 0%, 100% 75%, 75% 75%, 75% 100%, 50% 75%, 0% 75%); */
+}
+
+.box-wrapper{
+height:350px;
+border-radius: 1%;
+}
+.box1 {
+  grid-area: a;
+  clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+
+}
+
+.box2 {
+  grid-area: b;
+}
+
+.box3 {
+  grid-area: c;
+}
+
+.box4 {
+  grid-area: d;
+}
+
+.box5 {
+  grid-area: e;
+}
+
+.box6 {
+  grid-area: f;
+}
+
+.bigText {
+  font-size: 2em;
+  padding-right: .5ch;
 }
 
 @media only screen and (min-width: 1200px){

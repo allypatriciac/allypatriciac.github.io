@@ -1,3 +1,9 @@
+nav li a:hover {
+  color:rgb(123, 122, 122);
+  opacity: 1;
+  text-decoration: none;
+}
+
 .coffin:hover{
     animation-duration: 1s;
     animation-name: slideoff;
