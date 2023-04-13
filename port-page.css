@@ -9,6 +9,7 @@ body{
   display:grid;
   min-width: 100%;
   grid-template-columns: 1fr;
+  grid-template-rows: 1fr,1fr,1fr,1fr;
   grid-template-areas: 
   "icon"
   "navbar"
@@ -17,17 +18,13 @@ body{
 }
 
 /*svgs*/
-.ghost-coffin{
-  scale:.3;
- position: absolute;
-
-
-}
-.coffin{
-scale:.3;
+.icon{
 position:absolute;
-
 }
+
+
+
+
 
 /*ghostcoffinstyle*/
 .ghost-eyes {
@@ -204,11 +201,7 @@ svg{
   
 }
 
-.icon{
-  margin-left:50%;
-  margin-right:50%;
-  padding-top:5px;
-}
+
 
 
 
