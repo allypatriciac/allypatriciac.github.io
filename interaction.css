@@ -7,7 +7,7 @@ nav li a:hover {
 .coffin:hover{
     animation-duration: 1s;
     animation-name: slideoff;
-   animation-direction:alternate;
+   animation-direction:normal;
    
 }
 
@@ -17,8 +17,8 @@ nav li a:hover {
       translateY(0);
     } 
     to{
-        transform: translateX(900px)
-        translateY(300px)
+        transform: translateX(400px)
+        translateY(200px)
         
     }
 

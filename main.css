@@ -1,6 +1,7 @@
 body{
   background-image: url(assets/background.svg);
   background-size: cover;
+  height:100vh;
   background-color: #262626;
   background-repeat: no-repeat;
 }
@@ -20,13 +21,6 @@ body{
  
   }
 
-.gravestone-text{
-  text-align: center;
-  position:absolute;
-  left:200px;
-  top:80px;
-  line-height: 50%;;
-}
 
 h1, h2, h3{
 font-family: "lores-12-bold-alt-oakland", sans-serif;
@@ -77,11 +71,10 @@ color:aliceblue;
     z-index:10;
   }
 
+
   nav ul {
-    margin:0;
-    padding:0;
-    position:absolute;
-    top:300px;
+    align-items: center;
+    margin:0 auto;
     scale:.8;
     display:flex;
   }
@@ -89,7 +82,7 @@ color:aliceblue;
     padding: 1em 0;
     list-style-type: none;
     padding: 2px;
-    font-size: 1.7em;
+    font-size: 1.2em;
   }
   
   nav li a {
