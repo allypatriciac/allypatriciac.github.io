@@ -1,9 +1,8 @@
 body{
-  background-image: url(assets/background1-03.svg);
-  background-repeat:no-repeat;
-  background-size:cover;
-
-  
+  background-image: url(assets/background.svg);
+  background-size: cover;
+  background-color: #262626;
+  background-repeat: no-repeat;
 }
 .ghost-coffin{
     scale:.12;
@@ -109,4 +108,22 @@ color:aliceblue;
     text-decoration: none;
   }
 
-
+  @media only screen and (min-width: 1200px){
+  
+    .icon{
+      /* margin-left: 30%; */
+      /* margin-right: 30%; */
+      width:50%;
+      margin: 0 auto;
+      /* display: flex; */
+      grid-area: logo;
+    }
+    nav li{
+      padding: 1em 0;
+      list-style-type: none;
+      padding: 150px;
+      font-size: 1.7em;
+    }
+    
+    }
+  
