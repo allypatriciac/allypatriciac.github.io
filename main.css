@@ -1,6 +1,6 @@
 body{
   background-image: url(assets/background.svg);
-  background-size: cover;
+  /*background-size: cover;*/
   height:100vh;
   background-color: #262626;
   background-repeat: no-repeat;
