@@ -6,8 +6,11 @@ body{
     
 }
 
-h2, p{
-color: aliceblue;
+.subhead, p{
+  text-align:center;
+  color: aliceblue;
+  font-family: Bilo;
+  font-weight:500;
 }
 
 .container{
@@ -209,7 +212,7 @@ svg{
 }
 .card-container{
   scale:.85;
-  position:absolute;
+  align-content:center;
   
 }
 
