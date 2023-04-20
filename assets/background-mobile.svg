@@ -16,11 +16,7 @@
 	.st10{fill:#4E4E4E;}
 	.st11{opacity:0.29;}
 	.st12{fill:#ABABAB;}
-	.st13{fill:none;}
-	.st14{fill:#282828;}
-	.st15{font-family:'LoRes12OT-BoldAltOakland';}
-	.st16{font-size:65px;}
-	.st17{font-size:60px;}
+	.st13{fill:#282828;}
 </style>
 <g>
 	<rect x="-343.3" y="135.9" class="st0" width="1463.1" height="1144.5"/>
@@ -694,14 +690,59 @@
 		<rect x="634.3" y="726.8" class="st12" width="2.1" height="2.1"/>
 	</g>
 </g>
-<rect x="67.6" y="809.5" class="st13" width="630.9" height="163.7"/>
-<text transform="matrix(1 0 0 1 114.9219 852.9495)" class="st14 st15 st16">Allison Cravinho</text>
 <g>
-	<rect x="48.2" y="713.9" class="st13" width="633.4" height="194.7"/>
-	<text transform="matrix(1 0 0 1 214.8835 753.9623)" class="st14 st15 st17">Here Lies:</text>
+	<path class="st13" d="M142,853v-10.9h-16.1V853h-5.5v-16.4h5.4v-16.2h5.4v-10.9h11v10.9h5.4v16.2h5.4V853H142z M136.6,820.6h-5.3
+		v16.1h5.3V820.6z"/>
+	<path class="st13" d="M163.7,853v-43.5h10.9V853H163.7z"/>
+	<path class="st13" d="M185.3,853v-43.5h10.9V853H185.3z"/>
+	<path class="st13" d="M207,815.1v-5.5h10.9v5.5H207z M207,853v-32.6h10.9V853H207z"/>
+	<path class="st13" d="M244.9,847.6v5.5h-16.3v-5.5h10.8v-5.3H234v-5.4l-5.4-0.1v-10.9h5.4v-5.4h16.4v5.5h-10.9v5.3h5.4v5.4l5.5-0.1
+		v11H244.9z"/>
+	<path class="st13" d="M288.3,847.6v5.5h-21.8v-5.5h-5.4v-21.8h5.4v-5.4h21.8v5.4h5.4v21.8H288.3z M282.8,825.9H272v21.6h10.7V825.9
+		z"/>
+	<path class="st13" d="M326.1,853v-21.7h-5.3v5.5h-5.4V853h-10.9v-32.6h10.9v10.9h5.3v-5.5h5.4v-5.3H337V853H326.1z"/>
+	<path class="st13" d="M385.8,847.6v5.5h-16.4v-5.5h-5.4v-32.5h5.4v-5.5h21.8v11h-5.5v-5.5H375v32.4h10.7V842h5.5v5.6H385.8z"/>
+	<path class="st13" d="M412.9,831.3V853H402v-32.6h10.9v5.4h5.3v-5.4h5.5v10.9H412.9z"/>
+	<path class="st13" d="M434.5,853v-5.5h-5.4v-11h5.4v-5.4h16.2v-5.3h-16.2v-5.5h21.8v5.4h5.4V853H434.5z M450.7,836.7H440v10.8h10.7
+		V836.7z"/>
+	<path class="st13" d="M494.2,831.3v10.8h-5.5V853h-11v-10.9h-5.4v-10.8H467v-10.9h10.9v10.9h5.4V842h5.4v-21.6h10.9v10.9H494.2z"/>
+	<path class="st13" d="M504.9,815.1v-5.5h10.9v5.5H504.9z M504.9,853v-32.6h10.9V853H504.9z"/>
+	<path class="st13" d="M548.2,853v-21.7h-5.3v5.5h-5.4V853h-10.9v-32.6h10.9v10.9h5.3v-5.5h5.4v-5.3h10.9V853H548.2z"/>
+	<path class="st13" d="M591.6,853v-21.7h-5.3v5.5h-5.4V853h-10.9v-43.5h10.9v21.7h5.3v-5.5h5.4v-5.4h10.9V853H591.6z"/>
+	<path class="st13" d="M640.4,847.6v5.5h-21.8v-5.5h-5.4v-21.8h5.4v-5.4h21.8v5.4h5.4v21.8H640.4z M634.9,825.9h-10.7v21.6h10.7
+		V825.9z"/>
 </g>
 <g>
-	<rect x="9.3" y="910.9" class="st13" width="711.3" height="125"/>
-	<text transform="matrix(1 0 0 1 172.375 950.9992)" class="st14 st15 st17">(’s Portfolio)</text>
+	<g>
+		<path class="st13" d="M239.8,754v-20h-9.9v20h-10.1v-40.1h10.1v15h9.9v-15h10.1V754H239.8z"/>
+		<path class="st13" d="M285,749v5h-20.1v-5h-5v-20.1h5v-5H285v5h5v5.1h-5v5h-10v5h-5v5h14.9v-5.1h5.1v5.2H285z M279.9,729H270v9.8
+			h4.9v-4.9h5V729z"/>
+		<path class="st13" d="M310,734v20h-10.1v-30.1H310v5h4.9v-5h5.1V734H310z"/>
+		<path class="st13" d="M350,749v5h-20.1v-5h-5v-20.1h5v-5H350v5h5v5.1h-5v5h-10v5h-5v5h14.9v-5.1h5.1v5.2H350z M344.9,729H335v9.8
+			h4.9v-4.9h5V729z"/>
+		<path class="st13" d="M379.9,754v-40.1H390v35h15v5.1H379.9z"/>
+		<path class="st13" d="M409.9,719v-5.1H420v5.1H409.9z M409.9,754v-30.1H420V754H409.9z"/>
+		<path class="st13" d="M455,749v5h-20.1v-5h-5v-20.1h5v-5H455v5h5v5.1h-5v5h-10v5h-5v5h14.9v-5.1h5.1v5.2H455z M449.9,729H440v9.8
+			h4.9v-4.9h5V729z"/>
+		<path class="st13" d="M485,749v5h-15.1v-5.1h10V744h-5v-5l-5-0.1v-10.1h5v-5H490v5.1h-10v4.9h5v5l5-0.1V749H485z"/>
+		<path class="st13" d="M499.9,734v-10.1H510V734H499.9z M499.9,754v-10.1H510V754H499.9z"/>
+	</g>
+</g>
+<g>
+	<g>
+		<path class="st13" d="M184.8,961.1V956h-5v-5h-5V916h5v-5h5v-5H195v5.1h-5.1v5h-5l0.1,34.9h5v5h5v5.2H184.8z"/>
+		<path class="st13" d="M205,921.1v5h-5.1v-5.1h5V916h-5v-5.1H210v10.1H205z"/>
+		<path class="st13" d="M229.9,946v5h-15.1V946h10V941h-5v-5l-5-0.1v-10.1h5v-5H235v5.1h-10v4.9h5v5l5-0.1V946H229.9z"/>
+		<path class="st13" d="M285,931v5h-10.1V931h5V916H270v35h-10.1v-40.1H285v5h5V931H285z"/>
+		<path class="st13" d="M325,946v5h-20.1v-5h-5v-20.1h5v-5H325v5h5V946H325z M319.9,926H310V946h9.9V926z"/>
+		<path class="st13" d="M350,931v20h-10.1v-30.1H350v5h4.9v-5h5.1V931H350z"/>
+		<path class="st13" d="M380,926v25h-10.1V931h5V926h-10v-5.1h5v-10H380v10h5v5.1H380z"/>
+		<path class="st13" d="M405,926v25h-10.1v-25h-5v-5.1h5V916h5v-5.1H415v5.2h-15v4.9h4.9H415v5.1H405z"/>
+		<path class="st13" d="M445,946v5h-20.1v-5h-5v-20.1h5v-5H445v5h5V946H445z M439.9,926H430V946h9.9V926z"/>
+		<path class="st13" d="M459.9,951.1v-40.1H470v40.1H459.9z"/>
+		<path class="st13" d="M479.9,916v-5.1H490v5.1H479.9z M479.9,951.1v-30.1H490v30.1H479.9z"/>
+		<path class="st13" d="M525,946v5h-20.1v-5h-5v-20.1h5v-5H525v5h5V946H525z M519.9,926H510V946h9.9V926z"/>
+		<path class="st13" d="M550,951v5h-5l-0.1,5.1h-10.1v-5.2h5v-5h5V916h-5v-5h-5v-5.1h10.1v5h5v5h5V951H550z"/>
+	</g>
 </g>
 </svg>
