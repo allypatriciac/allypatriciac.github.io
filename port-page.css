@@ -1,9 +1,7 @@
 
 body{
     background-image: url(assets/webback-06.svg);
-    background-size: cover;
-    background-repeat:repeat-y;
-    
+    width: 100vw;
 }
 
 .subhead, p{
