@@ -2,6 +2,7 @@
 body{
     background-image: url(assets/webback-06.svg);
     width: 100vw;
+    background-repeat: repeat;
 }
 
 .subhead, p{
@@ -13,6 +14,7 @@ body{
 
 .container{
   display:grid;
+  align-content: center;
   min-width: 100%;
   grid-template-columns: 1fr;
   grid-template-rows: 1fr,1fr,1fr,1fr;
@@ -24,9 +26,9 @@ body{
 }
 
 /*svgs*/
-.icon{
+.coffin, .ghost-coffin{
 /* position:absolute; */
-scale:10;
+scale:4;
 padding-bottom: 4%;
 margin: 0 auto;
 
@@ -41,7 +43,7 @@ margin: 0 auto;
   fill: #262626;
 }
 
-.coffinsidein {
+.coffinsidein, .coffinside {
   fill: #6c6c6c;
 }
 
@@ -53,12 +55,6 @@ margin: 0 auto;
   fill: #8c8c8c;
 }
 
-
-/*coffinstyle*/
-.coffinside {
-  fill: #6c6c6c;
-}
-
 .coffin-front {
   fill: #a0a0a0;
 }
@@ -67,7 +63,7 @@ margin: 0 auto;
 nav{
     display: inline-block;
     padding-top:10%;
-    margin: 0 auto;
+    margin-left:8%;
     width: 100%;
     scale:75%;
   }
@@ -79,11 +75,10 @@ nav{
     display:flex;
   }
   nav li{
-    align-items: center;
     padding: 1em 0;
     list-style-type: none;
     padding: 1px;
-    font-size: 1.4em;
+    font-size: 1.3em;
   }
   
   nav li a {

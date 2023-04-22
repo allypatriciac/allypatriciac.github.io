@@ -1,4 +1,5 @@
 body{
+  background-color: darkblue;
   background-image: url(assets/background-mobile.svg);
   /* background-size: cover; */
   height:100vh;
@@ -66,22 +67,23 @@ color:aliceblue;
     z-index:10;
     margin-top: 160%; 
     margin-right:10%;
+  
     
   }
 
 
   nav ul {
     scale:1.5;
-    padding-left:15%;
+    padding-left:20%;
     display:flex;
-    
+
     
   }
   nav li{
-    padding: 1em 0;
     list-style-type: none;
     font-size: 1.2em;
     text-align: center;
+  
   }
   
   nav li a {
@@ -104,8 +106,6 @@ color:aliceblue;
   @media only screen and (min-width: 1200px){
     body{
       background-image: url(assets/background.svg);
-      background-size: cover;
-      height:100vh;
       background-color: #262626;
       background-repeat: no-repeat;
     }
