@@ -6,20 +6,13 @@ body{
   background-color: #262626;
   background-repeat: no-repeat;
 }
-.ghost-coffin{
+.ghost-coffin, .coffin{
     scale:.12;
     position:absolute;
     top:310px;
     right: 50px;
   }
 
-.coffin{
- scale:.12;
- position:absolute;
- top:310px;
- right:50px;
-
-}
 
 
 h1, h2, h3{

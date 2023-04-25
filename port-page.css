@@ -26,12 +26,16 @@ body{
 }
 
 /*svgs*/
-.coffin, .ghost-coffin{
+.coffin-icon {
 /* position:absolute; */
-scale:4;
+scale:10;
 padding-bottom: 4%;
 margin: 0 auto;
 
+}
+
+.coffin{
+  
 }
 
 
