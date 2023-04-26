@@ -1,6 +1,8 @@
-*{
+/* *{
   border:3px solid blue;
-}body{
+} */
+
+body{
   background-color: darkblue;
   background-image: url(assets/background-mobile.svg);
   /* background-size: cover; */
@@ -52,8 +54,6 @@
   nav{
     width: 100%;
     z-index:10;
-    margin-right:0%;
-    margin-left:0%;
   }
 
 
