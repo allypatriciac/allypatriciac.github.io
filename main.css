@@ -13,18 +13,19 @@ body{
 
 svg{
   width:20%;
- margin-top: 130%;
- margin-left:7%;
+ margin-top: 120%;
+ margin-left:35%;
   /* position:relative; */
 }
 
 .coffin{
-  position:relative;
+  position:fixed;
 }
 
 .ghost-coffin{
-  position:relative;
-  left:105px;
+  position:fixed;
+  
+ 
 }
   
 
@@ -56,21 +57,20 @@ svg{
   nav{
     width: 100%;
     z-index:10;
-    position:relative;
-    bottom:15px;
-    left:16px;
+    margin-top:150%;
   }
 
 
   nav ul {
     scale:1.1;
     display:flex;  
-    padding:0; 
+   justify-content: center;
+   padding:0;
   }
 
   nav li{
     list-style-type: none;
-    font-size: .87em;
+    font-size: 1.2em;
   
   }
   

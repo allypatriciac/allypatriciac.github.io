@@ -1,4 +1,4 @@
-/* *{  border:3px solid blue;} */
+*{  border:3px solid blue;}
 
 body{
     background-image: url(assets/webback-06.svg);
@@ -30,17 +30,17 @@ body{
 .coffin-icon{
   width:20%;
   position:relative;
-  top:-50px;
+
 }
 
 .coffin{
-  position:relative;
-  left:3px;
+  /* position:relative; */
+  
 }
 
 .ghost-coffin{
-  position:relative;
-  top:100px;
+  /* position:relative; */
+
 }
 
 /*ghostcoffinstyle*/
