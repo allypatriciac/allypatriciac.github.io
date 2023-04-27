@@ -144,7 +144,7 @@ nav{
     position:absolute;
     left: 75px; top:200px;
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr;
+    grid-template-rows: auto;
     grid-template-areas: 
     "a"
     "b"
@@ -201,10 +201,8 @@ svg{
   display:grid;
   margin:5px;
   grid-gap:10px;
-  grid-template-columns: 1fr,1fr;
-  grid-template-rows: 1fr
-  1fr
-  1fr;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
   grid-template-areas: "a b"
   "c d"
   "e f";
@@ -220,7 +218,7 @@ svg{
 height:350px;
 border-radius: 1%;
 }
-.box1 {
+/* .box1 {
   grid-area: a;
 
 }
@@ -243,7 +241,7 @@ border-radius: 1%;
 
 .box6 {
   grid-area: f;
-}
+} */
 
 .bigText {
   font-size: 2em;
@@ -255,11 +253,10 @@ border-radius: 1%;
     display:grid;
     margin:10px;
     grid-gap:50px;
-    grid-template-columns: 1fr,1fr,1fr;
-    grid-template-rows: 1fr
-    1fr
-    1fr;
-    grid-template-areas: "a b c"
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "a b c"
     "e f g";
   }
   
