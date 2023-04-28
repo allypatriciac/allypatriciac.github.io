@@ -48,13 +48,25 @@ body{
  .nav { 
     grid-area: 3 / 1 / 4 / 2; 
     margin-right: 16%;
-  } 
+   } 
 
-  nav ul li{
+   nav ul {
+    display:flex;
+   }
+
+   nav ul li{
       list-style-type: none;
       font-size: 17px;
     }
-  
+
+    nav li a {
+    color:rgb(64, 64, 65);
+    font-weight: 600;
+    text-decoration: none;
+    font-family: "lores-12-bold-alt-oakland", sans-serif;
+    font-style: normal;
+    transition: .3s;
+    }
 
 /*ghostcoffinstyle*/
 .ghost-eyes {
@@ -78,38 +90,11 @@ body{
   .coffin-front {
     fill: #a0a0a0;
   }
+
+
+ 
   
 
-  /* nav grid*/
-  nav{
-    /* width: 100%; */
-    z-index:10;
-    margin: 0 auto;
-  }
-
-
-  nav ul {
-    /* scale:1.5; */
-    /* margin-left:5%; */
-    /* padding-top:10%; */
-    display:flex;
-
-    
-  }
-  nav li{
-    list-style-type: none;
-    font-size: .7em;
-  
-  }
-  
-  nav li a {
-    color:rgb(64, 64, 65);
-    font-weight: 600;
-    text-decoration: none;
-    font-family: "lores-12-bold-alt-oakland", sans-serif;
-    font-style: normal;
-    transition: .3s;
-  }
 
   
   @media only screen and (min-width: 1200px){
@@ -118,36 +103,32 @@ body{
       /* background-color: rgb(2, 2, 52); */
       background-repeat: no-repeat;
     }
-    .icon{
-      /* margin-left: 30%; */
-      /* margin-right: 30%; */
-      /* width:50%; */
-      margin: 0 auto;
 
-    }
 
-    .coffin-container{
-      margin-left: 40%;
-      margin-top:2%;
-
-    }
     .ghost-coffin{ 
-      /* grid-area: 2 / 1 / 3 / 2;  */
-      width:15vw;
+      width:7vw;
       position: absolute;
-      margin:0 auto;} 
+      margin-left:9%;
+      bottom:4%;
+    } 
   
   .coffin{ 
-    /* grid-area: 2 / 1 / 3 / 2;  */
-      width:15vw;
+      width:7vw;
       position: absolute;
-      margin:0 auto;} 
-
-    nav ul li{
-      padding: 1em 0;
-      list-style-type: none;
-      /* padding: 150px; */
-      font-size: 3em;
-    }
+      margin-left:9%;
+      bottom:4%;
+    } 
     
+  .nav { 
+    grid-area: 3 / 1 / 4 / 2; 
+     } 
+  
+  nav ul li{
+      list-style-type: none;
+      font-size: 25px;
+      }
+  nav ul{
+    margin-left:34%;
+    margin-top: 8%;
+  }
     }
