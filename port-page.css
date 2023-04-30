@@ -132,7 +132,7 @@ nav{
   font-weight: 700;
   font-style: normal;
   text-align: center;
-  scale: 1.1;
+  scale: 1.2;
    }
 
   .bizcard3{
@@ -140,6 +140,7 @@ nav{
   font-weight: 400;
   font-style: normal;
   text-align: center;
+  margin-top:-8px;
   }
 
   .bizcard5{
