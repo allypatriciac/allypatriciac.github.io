@@ -62,21 +62,23 @@ nav li a:hover {
   }
   
   .hovereffect h2 {
-    /* text-transform: uppercase; */
+    text-transform: uppercase;
     text-align: center;
     position: relative;
     font-size: 1em;
-    padding: 10px;
-    font-family: 'Work Sans', sans-serif;
+    padding: 5px;
+    font-family: 'Bilo';
+    font-weight: 700;
     /* color:#FFA100; */
   }
   
   .hovereffect p {
     display: inline-block;
     text-decoration: none;
-    padding: 7px 14px;
+    padding: 14px;
     margin: 0;
     background-color: transparent;
+    font-weight:400;
   }
   
  
@@ -89,11 +91,10 @@ nav li a:hover {
     transition: all 0.4s ease-in;
     opacity: 0;
     filter: alpha(opacity=0);
-    color: #fff;
-    text-transform: uppercase;
-    font-family: 'Work Sans', sans-serif;
-    font-weight: 200;
-    margin-top:100px;
+    color:#484848;
+    /* text-transform: uppercase; */
+    font-family: 'Bilo';
+    margin-top:50px;
   }
   
   .hovereffect:hover p, .hovereffect:hover h2 {
