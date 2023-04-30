@@ -186,7 +186,7 @@ nav{
 
 /* svg styling */
 /* .st0{display:none;} */
-.st1{display:inline;}
+/* .st1{display:inline;} */
 
 svg{
   fill:rgb(255, 255, 255);
@@ -210,7 +210,7 @@ svg{
 }
 .card-container{
   scale:.85;
-  align-content:center;
+  /* align-content:right; */
   
 }
 
@@ -235,20 +235,64 @@ border-radius: 1%;
     "a b c"
     "e f g";
   }
-  
-  .icon{
-    /* margin-left: 30%; */
-    /* margin-right: 30%; */
-    width:30vw;
-    margin: 0 auto;
-    /* display: flex; */
-    grid-area: logo;
+
+  .coffin-subpage{
+    margin-left:-80px;
+    margin-top:2%;
   }
+  
+  .ghost-coffin{ 
+    /* grid-area: 2 / 1 / 3 / 2;  */
+    width:7vw;
+    /* position: absolute; */
+    margin:0 auto;} 
+  
+  .coffin{ 
+  /* grid-area: 2 / 1 / 3 / 2;  */
+    width:7vw;
+    /* position: absolute; */
+    margin:0 auto;
+  } 
+
   nav li{
-    padding: 1em 0;
     list-style-type: none;
-    padding: 150px;
-    font-size: 1.7em;
+    font-size: 2em;
+  }
+  .nav-subpage{
+    margin:0 auto;
+    padding-top:9%;
+  }
+
+  .subhead{
+    padding-top:5%;
+    font-size: 2.5em;
+  }
+
+  .front-side,
+  .back-side {
+  margin: 10px;
+
+}
+.bizcard3{
+margin-top:-8px;
   }
   
+  .boxContainer{
+    display:flex;
+    margin-left:55%;
+    padding-bottom:5%;
+    margin-top:-260px;
   }
+
+  p{
+    width:40%;
+    font-size: 1.2em;
+    margin-left:10%;
+    margin-top:7%;
+  
+  }
+  .survey{
+    margin:0;
+    margin-left:25%;
+  }
+}

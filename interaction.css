@@ -4,12 +4,6 @@ nav li a:hover {
   text-decoration: none;
 }
 
-nav li a:hover {
-  color:rgb(35, 35, 35);
-  opacity: 1;
-  text-decoration: none;
-}
-
 .coffin:hover{
     animation-duration: 1s;
     animation-name: slideoff;
@@ -23,8 +17,8 @@ nav li a:hover {
       translateY(0);
     } 
     to{
-        transform: translateX(400px)
-        translateY(200px)
+        transform: translateX(75px)
+        translateY(50px)
         
     }
 
