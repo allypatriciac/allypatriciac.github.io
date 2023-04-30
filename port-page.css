@@ -6,6 +6,16 @@ body{
     background-repeat: repeat;
     margin:0;
 }
+.top{
+  font-family: "lores-12", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  text-align: center;
+  color:aliceblue;
+  font-size: 28px;
+  word-spacing:150px;
+  padding-top:50px;
+  }
 
 .subhead, .about{
   text-align:center;
@@ -30,8 +40,8 @@ body{
 /*svgs*/
 
 .coffin-subpage{
-  margin-left:-80px;
-  margin-top:5%;
+  margin-left:-95px;
+  margin-top:-65px;
 }
 
 .ghost-coffin{ 
@@ -71,6 +81,7 @@ body{
 /*navbar*/
 .nav-subpage{
 margin-top:18%;
+text-align: center;
 }
 
 nav{
@@ -80,11 +91,9 @@ nav{
 
   nav ul {
     display:flex;
-    padding:0%;
     
   }
   nav li{
-    padding: 1em 0;
     list-style-type: none;
     font-size: 1em;
   }
