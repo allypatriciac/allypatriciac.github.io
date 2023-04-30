@@ -83,7 +83,7 @@ nav li a:hover {
   
  
   
-  .hovereffect p, .hovereffect h2 {
+  .hovereffect p, .hovereffect h2{
     -webkit-transform: scale(0.7);
     -ms-transform: scale(0.7);
     transform: scale(0.7);
@@ -91,12 +91,13 @@ nav li a:hover {
     transition: all 0.4s ease-in;
     opacity: 0;
     filter: alpha(opacity=0);
-    color:#484848;
+    color:#7e0303;
     /* text-transform: uppercase; */
     font-family: 'Bilo';
     margin-top:50px;
   }
   
+
   .hovereffect:hover p, .hovereffect:hover h2 {
     opacity: 1;
     filter: alpha(opacity=100);

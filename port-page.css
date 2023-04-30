@@ -237,9 +237,21 @@ width:auto;
     "e f g";
   }
 
+  .top{
+  font-family: "lores-12", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  text-align: center;
+  color:aliceblue;
+  font-size: 50px;
+  word-spacing:300px;
+padding-top:50px;
+  }
+
   .coffin-subpage{
-    margin-left:-80px;
-    margin-top:2%;
+    margin-right:40px;
+    margin-top:-100px;
+   
   }
   
   .ghost-coffin{ 
@@ -261,7 +273,7 @@ width:auto;
   }
   .nav-subpage{
     margin:0 auto;
-    padding-top:9%;
+    padding-top:5%;
   }
 
   .subhead{
@@ -292,8 +304,7 @@ margin-top:-8px;
     margin-top:7%;
   
   }
-  .survey{
-    margin:0;
-    margin-left:25%;
+  .container{
+    padding-bottom:5%;
   }
 }
