@@ -1,5 +1,4 @@
-# boilerPlate
-basic starting file structure for Umass Dartmouth
+web documentation
 
 Most of the technology I used for this project were forked from classmate’s repositories or from Lara’s repositories. Lara assisted me heavily with the use of css grids for both mobile and desktop. I used hover effects for the navbar as well as the main icon to change colors and move. My icon’s movements used keyframes in order to animate, and while small I am very proud of it. 
 
