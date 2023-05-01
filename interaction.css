@@ -7,7 +7,7 @@ nav li a:hover {
 .coffin:hover{
     animation-duration: 1s;
     animation-name: slideoff;
-   animation-direction:alternate;
+   animation-direction:normal;
    
 }
 
@@ -17,12 +17,13 @@ nav li a:hover {
       translateY(0);
     } 
     to{
-        transform: translateX(900px)
-        translateY(300px)
+        transform: translateX(75px)
+        translateY(50px)
         
     }
 
 }
+
 /* test */
 .hovereffect {
     width: 100%;
@@ -61,26 +62,28 @@ nav li a:hover {
   }
   
   .hovereffect h2 {
-    /* text-transform: uppercase; */
+    text-transform: uppercase;
     text-align: center;
     position: relative;
     font-size: 1em;
-    padding: 10px;
-    font-family: 'Work Sans', sans-serif;
+    padding: 5px;
+    font-family: 'Bilo';
+    font-weight: 700;
     /* color:#FFA100; */
   }
   
   .hovereffect p {
     display: inline-block;
     text-decoration: none;
-    padding: 7px 14px;
+    padding: 14px;
     margin: 0;
     background-color: transparent;
+    font-weight:400;
   }
   
  
   
-  .hovereffect p, .hovereffect h2 {
+  .hovereffect p, .hovereffect h2{
     -webkit-transform: scale(0.7);
     -ms-transform: scale(0.7);
     transform: scale(0.7);
@@ -88,13 +91,13 @@ nav li a:hover {
     transition: all 0.4s ease-in;
     opacity: 0;
     filter: alpha(opacity=0);
-    color: #fff;
-    text-transform: uppercase;
-    font-family: 'Work Sans', sans-serif;
-    font-weight: 200;
-    margin-top:100px;
+    color:#7e0303;
+    /* text-transform: uppercase; */
+    font-family: 'Bilo';
+    margin-top:50px;
   }
   
+
   .hovereffect:hover p, .hovereffect:hover h2 {
     opacity: 1;
     filter: alpha(opacity=100);
